@@ -1,0 +1,53 @@
+{
+	"$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
+	"vcs": {
+		"enabled": false,
+		"clientKind": "git",
+		"useIgnoreFile": false
+	},
+	"files": {
+		"ignoreUnknown": false,
+		"ignore": []
+	},
+	"formatter": {
+		"enabled": true,
+		"indentStyle": "tab"
+	},
+	"organizeImports": {
+		"enabled": true
+	},
+	"linter": {
+		"enabled": true,
+		"rules": {
+			"recommended": true,
+			"a11y": {
+				"useAltText": "error",
+				"noBlankTarget": "error"
+			},
+			"suspicious": {
+				"noConsoleLog": "error"
+			},
+			"nursery": {
+        "useSortedClasses": {
+					"level": "error",
+					"fix": "safe",
+					"options": {}
+				}
+      },
+			"style":{
+				"useNamingConvention": "error"
+			},
+			"complexity":{
+				"useArrowFunction": "error"
+			}
+		}
+	},
+	"javascript": {
+		"formatter": {
+			"quoteStyle": "single",
+			"jsxQuoteStyle": "single",
+			"indentWidth": 4,
+			"lineWidth": 10
+		}
+	}
+}
