@@ -1,6 +1,6 @@
 export default function Page() {
 	return (
-		<div className='font-bold text-lg text-red'>
+		<div className='border-2 font-bold text-lg text-red'>
 			vercel
 		</div>
 	);
