@@ -28,16 +28,16 @@
 				"noConsoleLog": "error"
 			},
 			"nursery": {
-        "useSortedClasses": {
+				"useSortedClasses": {
 					"level": "error",
 					"fix": "safe",
 					"options": {}
 				}
-      },
-			"style":{
+			},
+			"style": {
 				"useNamingConvention": "error"
 			},
-			"complexity":{
+			"complexity": {
 				"useArrowFunction": "error"
 			}
 		}
@@ -47,7 +47,7 @@
 			"quoteStyle": "single",
 			"jsxQuoteStyle": "single",
 			"indentWidth": 4,
-			"lineWidth": 10
+			"lineWidth": 100
 		}
 	}
 }
